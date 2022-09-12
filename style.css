@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    min-height: 600px;
+    background-image: url("https://images2.alphacoders.com/503/thumb-1920-503059.jpg");
+    background-color: #9ee5e7;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+
+    text-align: center;
+    padding: 150px;
+    height: 45vh;
+}
+
+p {
+    font-size: 30px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-height: 500px) {
+    body {
+        min-height: 800px;
+    }
+}
+
+input {
+    margin: 6px;
+    padding: 6px;
+    width: 400px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+#botao #reset {
+    background-color: #ffffff;
+    display: none;
+    margin: auto;
+    margin-top: 9px;
+}
+
+.resultado {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#botao #hidden {
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 9px;
+}
+#valor{
+    margin: auto;
+}
+#erro {
+    display: none;
+    margin: auto;
+    width: 230px;
+    height: auto;
+}
+
+#parabens {
+    display: none;
+    margin: auto;
+    width: 180px;
+    height: auto;
+}
